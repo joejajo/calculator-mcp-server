@@ -19,7 +19,7 @@ app = FastMCP(
     dependencies=["numpy", "scipy", "sympy", "matplotlib"],
 )
 
-TRANSPORT = "sse"
+TRANSPORT = "streamable-http"
 
 ALLOW_FUNCTION = {
     "math": math,
